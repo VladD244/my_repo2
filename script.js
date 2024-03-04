@@ -67,3 +67,15 @@ console.log(`Primul caracter din sirul '${myName}' este ${firstCharInName}`);
 // lungimea sirului
 const myNameLenght = myName.length;
 console.log(`Lungimea sirului '${myName}' este ${myNameLenght}`);
+
+// ultimul caracter din string
+let lastCharIndex = myNameLenght - 1;
+let lastChar = myName[lastCharIndex];
+console.log(`Ultimul caracter din sir este ${lastChar}`);
+
+//concatenare de stringuri
+let firstName = 'Vlad';
+let lastName = 'Gabriel';
+let separator = ' ';
+let fullName = firstName + ' ' + lastName;
+console.log(`Numele meu complet este ${fullName}`);
