@@ -25,3 +25,9 @@ console.log(`Rezultatul sumei dintre ${firstNumber} si ${secondNumber} este ${su
 let pastAge = age - years;
 console.log(`Acum ${years} ani aveam varsta de ${pastAge}`);
 console.log(`Acum ${years} ani aveam varsta de ${age - years}`);
+
+// inmultire
+let nummberA = 5;
+let numberB = 10;
+let multiplyResult = nummberA * numberB;
+console.log(`${nummberA} inmultit cu ${numberB} da ${multiplyResult}`)
